@@ -8,7 +8,6 @@ class UserAdmin(admin.ModelAdmin):
 @admin.register(Team)
 class TeamAdmin(admin.ModelAdmin):
     list_display = ('name', 'created_at')
-    filter_horizontal = ('members',)
 
 @admin.register(Activity)
 class ActivityAdmin(admin.ModelAdmin):
