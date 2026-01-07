@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  color: #222b45;
+
+.container {
+  margin-top: 30px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.table {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.navbar {
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+/* Algemene tekstkleur */
+h1, h2, h3, h4, h5, h6 {
+  color: #2e5aac;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+button, .btn, .btn-primary {
+  background: linear-gradient(90deg, #2e5aac 0%, #f76b1c 100%);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(46,90,172,0.08);
+}
+.btn-primary:hover, button:hover, .btn:hover {
+  background: linear-gradient(90deg, #f76b1c 0%, #2e5aac 100%);
+}
+
+nav {
+  background: #2e5aac;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(46,90,172,0.08);
+}
+nav .logo {
+  margin-right: 2rem;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+nav ul li a, a.nav-link.active {
+  color: #2e5aac !important;
+  background: #f4f4f4;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background 0.2s, color 0.2s;
+}
+nav ul li a:hover, a.nav-link.active:hover {
+  background: #f76b1c;
+  color: #fff !important;
+}
+
+a {
+  color: #2e5aac;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #f76b1c;
+}
+
+table, .table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(46,90,172,0.08);
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+th, td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #e0eafc;
+}
+th {
+  background: #2e5aac;
+  color: #fff;
+  font-weight: 600;
+}
+tr:nth-child(even) {
+  background: #f4f8fb;
+}
+
+/* Logo styling */
+.octofit-logo {
+  height: 48px;
+  margin-right: 1.5rem;
+  vertical-align: middle;
+}
+
+/* App container styling */
+.App {
+  max-width: 900px;
+  margin: 2rem auto;
+  background: rgba(255,255,255,0.95);
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(46,90,172,0.10);
+  padding: 2rem 2.5rem;
+}
+}
