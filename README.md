@@ -24,6 +24,19 @@
 
 **Keep the momentum going!**
 
+<!-- Added: spotlight screenshot and short feature summary to make the project more discoverable -->
+### About this project
+
+<img src="docs/octofitapp-small.png" alt="OctoFit app screenshot" style="max-width:320px;height:auto;border-radius:8px;margin:12px 0;" />
+
+Quick highlights:
+
+- User authentication and profiles
+- Activity logging and tracking
+- Team creation and management
+- Competitive leader board and personalized suggestions
+
+
 [![](https://img.shields.io/badge/Return%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/MariekeKopmels/skills-build-applications-w-copilot-agent-mode/issues/1)
 [![GitHub Skills](https://img.shields.io/badge/Explore%20GitHub%20Skills-000000?style=for-the-badge&logo=github&logoColor=white)](https://learn.github.com/skills))
 
